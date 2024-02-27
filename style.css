@@ -1,0 +1,395 @@
+* {
+    bottom: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    color: #888888;
+    font-size: 18px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: white;
+}
+
+header {
+    max-width: 1174px;
+    margin: 0 auto;
+}
+
+.header__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 34px;
+}
+
+header .logo__header {
+    max-width: 137px;
+}
+
+header .none {
+    max-width: 200px;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav .menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    padding-left: 34px;
+    font-weight: 400;
+    max-width: 77px;
+    justify-content: flex-end;
+}
+
+header .menu__home a {
+    color: #F25822;
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 77px;
+}
+
+button {
+    background: #F25822;
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;
+    color: #FFFFFF;
+    padding: 16px 10px;
+    border-radius: 56px;
+    width: 140px;
+    height: 51px;
+    gap: 10px;
+    margin-top: 32px;
+}
+
+main {
+    max-width: 1174px;
+    margin: 0 auto;
+    margin-top: 84px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 98px;
+}
+
+main .text__main .text__main__title {
+    max-Width: 522px;
+}
+
+main .text__main h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
+}
+
+main .text__main p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+main .text__main .button__watch {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 0;
+    max-width: 302px;
+    gap: 27px;
+}
+
+main .text__main .button__main p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #AAAAAA;
+    max-width: 135px;
+}
+
+main .img__big img {
+    max-width: 610.73px;
+    max-height: 372.9px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main .img__big_2 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo__img {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.logo__img .img__footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+}
+
+footer .img__footer .logo {
+    max-width: 160px;
+}
+
+.about__block {
+    max-width: 1174px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.about__block .about__big__blog {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__us .text__main__title h2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    margin-top: 125px;
+}
+
+.about__us .text__main__title {
+    max-width: 515px;
+}
+
+.about__us .text__main__title p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #888888;
+    margin-top: 20px;
+}
+
+.about__block .img__big_2 {
+    max-width: 800px;
+}
+
+.icons__block {
+    max-width: 1174px;
+    margin: 0 auto;
+    margin-top: 240px;
+}
+
+.icons__block__three {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block__container {
+    width: 310px;
+}
+
+.icons__block .block__container .icon {
+    width: 70px;
+}
+
+.icons__block .block__container .icon__text h4 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 25px;
+}
+
+.icons__block .block__container .icon__text p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 17px;
+}
+
+.icons__block .block__container .icon__text h5 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 25px;
+}
+
+.why__we {
+    max-width: 1174px;
+    margin: 0 auto;
+    margin-top: 240px;
+}
+
+.why__we .why__we__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why__we h2 {
+    font-weight: 700;
+    font-size: 48px
+}
+
+.why__we p {
+    font-weight: 700;
+    padding-top: 24px;
+}
+
+.box_why {
+    max-width: 1174px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.box__why {
+    max-width: 370px;
+}
+
+.box_why .blocks__why {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_why .blocks__why .box__why {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_why .img__why_we {
+    max-width: 370px;
+}
+
+.button__why {
+    max-width: 310px;
+}
+
+.why__box_text h3 {
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.why__box_text p {
+    margin-top: 16px;
+}
+
+.why__box_text p {
+    margin-top: 24px;
+}
+
+.container__text_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ask__what {
+    max-width: 1174px;
+    margin: 0 auto;
+    margin-top: 207px;
+}
+
+.ask__what .box__ask .ask_big_img {
+    max-width: 514px;
+}
+
+.ask__what .box__ask {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ask__what .box__ask .big__blog_ask {
+    max-width: 557px;
+}
+
+.ask__what .box__ask .big__blog_ask .block__text_ask h3 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.ask__what .box__ask .big__blog_ask .block__text_ask p {
+    margin-top: 20px;
+}
+
+.ask__what .box__ask .big__blog_ask .icons__ask .img {
+    max-width: 100px;
+}
+
+.ask__what .box__ask .big__blog_ask .icons__ask .icon__text {
+    margin-top: 47px;
+}
+
+.ask__what .box__ask .big__blog_ask .icons__ask .icon__text h5 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.ask__what .box__ask .big__blog_ask .icons__ask .icon__text p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.ask__what .box__ask .big__blog_ask {
+    max-width: 491px;
+    margin: 0 auto;
+    margin-top: 47px;
+}
+
+.ask__what .box__ask .big__blog_ask .icons__ask .icons__block__mini {
+    max-width: 491px;
+}
+
+.ask__what .box__ask .big__blog_ask .icons__ask .icons__block__mini .icon__askes {
+    display: flex;
+    gap: 29px;
+    align-items: center;
+}
+
+.funfackt {
+    max-width: 1174px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.funfackt .funfackt__block {
+    display: flex;
+    flex-wrap: wrap;
+    color: #666666;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.funfackt .funfackt__block .title h2 {
+    font-size: 70px;
+}
+
+.funfackt .funfackt__block .title p {
+    font-size: 18px;
+}
+
+.funfackt .funfackt__block .funfackt__textblock {
+    max-width: 165px;
+}
+
+.funfackt .funfackt__block .funfackt__textblock .title {
+    flex-direction: column;
+    align-items: center;
+}
